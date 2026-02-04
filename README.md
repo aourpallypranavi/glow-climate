@@ -220,5 +220,5 @@ window.glowState
 
 ---
 
-Built with ☀️ by Wasim
-For Nightingale / Data Visualization Society
+Built with ☀️ Pranavi Aourpally
+
