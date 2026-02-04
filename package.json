@@ -1,0 +1,10 @@
+{
+  "name": "glow-climate",
+  "version": "1.0.0",
+  "description": "Interactive data visualization of AI's climate impact",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "start": "node server.js"
+  },
+  "type": "module"
+}

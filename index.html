@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glow — The Climate Cost of AI</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+  
+  <!-- Fixed viewport -->
+  <div class="viewport">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- Text overlays -->
+  <div id="textOverlay" class="text-overlay">
+    <div id="textContent" class="text-content"></div>
+  </div>
+
+  <!-- Data counter -->
+  <div id="dataCounter" class="data-counter">
+    <div id="counterValue" class="counter-value"></div>
+    <div id="counterLabel" class="counter-label"></div>
+  </div>
+
+  <!-- Source attribution -->
+  <div class="source-attribution">
+    Sources: International Energy Agency (2024), SemiAnalysis (2024), Patterson et al. (Google Research, 2021), US EIA (2024)
+  </div>
+
+  <!-- Scroll container -->
+  <div class="scroll-container"></div>
+
+  <!-- Scripts (ES6 modules) -->
+  <script type="module" src="js/main.js"></script>
+  
+</body>
+</html>
